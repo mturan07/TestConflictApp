@@ -10,7 +10,7 @@ namespace TestConflictApp
     {
         public static string GetHelloWorld()
         {
-            return "Hello, world!";
+            return "Hello, world people!";
         }
     }
 }
