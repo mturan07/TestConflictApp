@@ -1,3 +1,5 @@
-Console.WriteLine("Hello, World People!");
+using TestConflictApp;
+
+Console.WriteLine(NewClass.GetHelloWorld());
 Console.ReadLine();
 Console.ReadKey();
