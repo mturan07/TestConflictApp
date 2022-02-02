@@ -8,9 +8,10 @@ namespace TestConflictApp
 {
     public static class NewClass
     {
-        public static string GetHelloWorld()
+        public static string GetHelloWorld(string msg)
         {
-            return "Hello, world people!";
+            string message = msg + " people!";
+            return message;
         }
     }
 }
