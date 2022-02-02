@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestConflictApp
 {
-    public class NewClass
+    public class Calc
     {
-        public static string GetHelloWorld(string msg)
+        public static int AddTwoNumber(int a, int b)
         {
-            string message = msg + " people!";
-            return message;
+            return a + b;
         }
     }
 }
