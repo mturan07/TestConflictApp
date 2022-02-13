@@ -11,5 +11,7 @@ namespace TestWebApi.Models
         public string Name { get; set; }
         public string Company { get; set; }
         public string Phone { get; set; }
+        public int CategoryId { get; set; }
+        public Category CategoryInfo { get; set; }
     }
 }
