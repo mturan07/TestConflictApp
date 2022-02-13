@@ -8,9 +8,9 @@ namespace TestWebApi.Models
 {
     public class ApplicationDbContext : DbContext
     {
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
         {
-            base.OnModelCreating(modelBuilder);
+
         }
 
         public DbSet<Customer> Customers { get; set; }
